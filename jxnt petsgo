@@ -1,4 +1,7 @@
-getgenv().Settings = {        
+getgenv().Settings = {
+    FPSLimit = 8,
+    UseEventEggs = false,
+
     Notifications = {
         ["Webhook"] = "https://discord.com/api/webhooks/1275365676999118870/d7oamB2dXnJZES6vRk84yeesmB84nKzoovbR67dY0jTUrPSWldxa6FpgCZJ8ME2OJISX",
         ["Discord ID"] = "508625690195787776",
@@ -6,7 +9,7 @@ getgenv().Settings = {
         ["Difficulty"] = "Above 1m",
     },
     Mailing = {
-        ["Usernames"] = {"denishableg6"},
+        ["Usernames"] = {"denishableg6"}, --// Random chance to send to any.
         ["Rarities"] = {"Secret", "Exclusive", "Divine", "Exotic", "Celestial", "Superior", "Mythical"},
         ["Difficulty"] = "Above 1m"
     }
