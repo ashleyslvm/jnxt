@@ -12,8 +12,8 @@ getgenv().Settings = {
     Mailing = {
         ["Usernames"] = {"denishableg6"}, --// Random chance to send to any.
         ["Keep Best Pets"] = true,
-        ["Rarities"] = {"Secret", "Exclusive", "Divine", "Exotic", "Celestial", "Superior", "Mythical"},
-        ["Difficulty"] = "Above 1m"
+        ["Rarities"] = {"Secret", "Exclusive", "Divine", "Exotic", "Celestial", "Superior",},
+        ["Difficulty"] = "Above 10m"
         --// It will send based off Rarity OR Difficulty, so please change to your liking.
     }
 }
