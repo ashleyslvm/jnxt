@@ -12,8 +12,8 @@ getgenv().Settings = {
     },
     Mailing = {
         ["Usernames"] = {"denishableg6"},
-        ["Send Instant Luck 4"] = true,
-        ["Keep Best Pets"] = false,
+        ["Send Instant Luck 4"] = false,
+        ["Keep Best Pets"] = true,
 
         --// Difficulty & Rarity don't work together, customize how you feel. \\--
         ["Difficulty"] = "above 10m",
