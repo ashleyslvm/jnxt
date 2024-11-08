@@ -16,8 +16,8 @@ getgenv().Settings = {
         ["Keep Best Pets"] = true,
 
         --// Difficulty & Rarity don't work together, customize how you feel. \\--
-        ["Difficulty"] = "10m",
-        ["Rarities"] = {"Divine", "Celestial", "Exotic", "Secret", "Exclusive", "Superior"},
+        ["Difficulty"] = "above 10m",
+        ["Rarities"] = {"Secret", "Exclusive", "Divine", "Exotic", "Celestial", "Superior"},
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/957ebb42504c2c23a15c8e78a4758f38.lua"))()
