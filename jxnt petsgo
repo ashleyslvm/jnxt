@@ -1,5 +1,5 @@
 getgenv().Settings = {        
-    FPSLimit = 5,
+    FPSLimit = 10,
     UseEventEggs = false,
 
     Notifications = {
